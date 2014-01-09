@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.1'
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -11,6 +12,7 @@ group :development, :test do
   gem 'spork-rails', '4.0.0'
   gem 'childprocess', '0.3.9'
   gem 'guard-spork', '0.3.2'
+  gem 'rspec-core',  '2.13.0'
 
 end
 
